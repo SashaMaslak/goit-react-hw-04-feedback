@@ -10,7 +10,7 @@ export const App = () => {
         color: '#010101'
       }}
     >
-      My - React homework template
+      MyHome - React homework template
     </div>
   );
 };
