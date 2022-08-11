@@ -5,6 +5,7 @@ export const Title = styled.h2`
    color: ${p => p.theme.colors.text};
    text-align: ${p => p.theme.position.c};
    margin-bottom: ${p => p.theme.space[5]}px;
+   color: ${p => p.theme.colors.accent};
 `;
 
 export const Stats = styled.div`

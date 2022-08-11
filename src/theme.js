@@ -34,8 +34,8 @@ export const theme = {
     accent: '#609',
     accentLight: '#ae66d1',
     muted: '#f6f6f6',
-    isOnline: '#008000',
-    isOffline: '#f00',
+    green: '#008000',
+    red: '#f00',
   },
   space: [0, 2, 4, 8, 16, 32, 64, 128, 256, 320, 480, 512, 768, 1024],
   fonts: {

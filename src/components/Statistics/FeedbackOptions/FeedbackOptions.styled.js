@@ -10,6 +10,7 @@ export const FeedbackBox = styled.div`
 export const Button = styled.button`
    width: ${p => p.theme.space[7]}px;
    font-size: ${p => p.theme.fontSizes.l};
+   border-radius: ${p => p.theme.space[3]}px;
    :hover {
       background-color: ${p => p.theme.colors.accentLight};
    }
