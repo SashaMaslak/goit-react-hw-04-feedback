@@ -1,26 +1,11 @@
-import { Profile } from './Profile/Profile';
-import user from './Profile/user.json';
-import { Statistics } from './Statistics/Statistics';
-import data from './Statistics/data.json';
-import { FriendList } from './FriendList/FriendList';
-import friends from './FriendList/friends.json';
-import { TransactionHistory } from './Transactions/TransactionHistory';
-import transactions from './Transactions/transactions.json';
 import { Box } from './Box';
+import { Statistics } from './Statistics/Statistics';
+
 
 export const App = () => {
   return (
       <Box as="section">
-        <Profile
-          username={user.username}
-          tag={user.tag}
-          location={user.location}
-          avatar={user.avatar}
-          stats={user.stats}
-        />
-        <Statistics title="UPLOAD STATS" stats={data} />
-        <FriendList friends={friends} />
-        <TransactionHistory items={transactions} />
+      <Statistics good={0} neutral={0} bad={0} total={0} persentage={0} />
       </Box>
   );
 };
