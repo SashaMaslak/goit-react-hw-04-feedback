@@ -11,6 +11,6 @@ export const Button = styled.button`
    width: ${p => p.theme.space[7]}px;
    font-size: ${p => p.theme.fontSizes.l};
    :hover {
-      background-color: ${p => p.theme.colors.isOnline};
+      background-color: ${p => p.theme.colors.accentLight};
    }
 `;
