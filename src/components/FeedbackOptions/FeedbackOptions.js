@@ -1,18 +1,21 @@
 import React from 'react';
 
-import { Button, FeedbackBox } from "./FeedbackOptions.styled";
+import { Button, FeedbackBox } from './FeedbackOptions.styled';
 
-export const FeedbackOptions = ({ options, onLeaveFeedback, }) => (
-   <FeedbackBox>
+export function FeedbackOptions({ options, onLeaveFeedback }) {
+   
+  return (
+    <FeedbackBox>
       {options.map(option => (
-         <Button
-            type="button"
-            onClick={onLeaveFeedback}
-            name={option}
-            key={{ option }}
-         >
-            {option}
-         </Button>
+        <Button
+          type="button"
+          onClick={onLeaveFeedback}
+          name={option}
+          key={option}
+        >
+          {option}
+        </Button>
       ))}
-   </FeedbackBox>
-);
+    </FeedbackBox>
+  );
+}
